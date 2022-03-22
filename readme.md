@@ -22,7 +22,7 @@ you must be able to see you project repository URL
 
 ## 2. Setup the project name
 
-  change the folder `MY_PROJECT_NAME` to the name of your project.
+  change the folder `my_project_name` to the name of your project.
 
   ![project name after you change](./assets/project_name_example.png)
 
@@ -65,5 +65,9 @@ pip install -r requirements.txt
 ```bash
 pre-commit install --hook-type pre-commit --hook-type pre-push
 ```
+
+### Update .yaml file
+
+Open the *.pre-commit-config.yaml* file and replace **my_project_name** for the name of your project, the same that you replace the folder in the step 2
 
 You are ready to go 😊

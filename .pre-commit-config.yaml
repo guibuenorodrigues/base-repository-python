@@ -24,5 +24,5 @@ repos:
         stages: [push]
         name: pylint
         language: system
-        entry: pylint --fail-under=9 --fail-on=invalid-name,wrong-import-order,ungrouped-imports manager
+        entry: pylint --fail-under=9 --fail-on=invalid-name,wrong-import-order,ungrouped-imports MY_PROJECT_NAME
         pass_filenames: false
