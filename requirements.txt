@@ -1,0 +1,5 @@
+autopep8==1.6.0
+flake8==4.0.1
+pre-commit
+pylint==2.12.2
+pytest==7.1.0
